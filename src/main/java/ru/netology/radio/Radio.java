@@ -15,10 +15,7 @@ public class Radio {
     public Radio(int maxStation) {
         this.maxStation = maxStation - 1;
     }
-    public Radio() {
 
-
-    }
     public void setCurrentRadioStation(int currentRadioStation) {
         if (currentRadioStation < 0) {
             return;
